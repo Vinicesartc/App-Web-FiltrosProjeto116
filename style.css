@@ -1,0 +1,22 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+  }
+  body {
+    background: linear-gradient(#eefba6 0%,#d4b2fc 100%);
+  }
+  canvas {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animation{
+    from{box-shadow: 1px 1px 38px #26064a;}
+    to{box-shadow: 1px 1px 38px #384203;}
+  }
+  .btn-success:hover{
+    background-color: rgb(175, 175, 28);
+  }
